@@ -1,0 +1,36 @@
+{
+  "name": "cocoa",
+  "private": false,
+  "version": "0.0.1",
+  "description": "A discord bot framework.",
+  "main": "build/index.js",
+  "types": "./build/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node src/index.js",
+    "dev": "nodemon src/src.ts"
+  },
+  "files": ["src", "build"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onesoft-sudo/cocoa.git"
+  },
+  "keywords": [
+    "discord",
+    "discord-bot",
+    "discord-bot-framework"
+  ],
+  "author": "Ar Rakin <rakinar2@gmail.com>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/onesoft-sudo/cocoa/issues"
+  },
+  "homepage": "https://github.com/onesoft-sudo/cocoa#readme",
+  "dependencies": {
+    "discord.js": "^13.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16",
+    "typescript": "^4.7.2"
+  }
+}
