@@ -7,9 +7,16 @@
   "scripts": {
     "build": "tsc",
     "start": "node src/index.js",
-    "dev": "nodemon src/src.ts"
+    "dev": "nodemon src/src.ts",
+    "test": "jest",
+    "test:cov": "jest --coverage"
   },
-  "files": ["src", "build", "tsconfig.json", "package.json"],
+  "files": [
+    "src",
+    "build",
+    "tsconfig.json",
+    "package.json"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/onesoft-sudo/cocoa.git"
@@ -29,7 +36,10 @@
     "discord.js": "^13.7.0"
   },
   "devDependencies": {
+    "@types/jest": "^28.1.1",
+    "jest": "^28.1.1",
     "nodemon": "^2.0.16",
+    "ts-jest": "^28.0.4",
     "typescript": "^4.7.2"
   }
 }
