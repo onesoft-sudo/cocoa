@@ -4,4 +4,6 @@
 [![CodeFactor](https://www.codefactor.io/repository/github/onesoft-sudo/cocoa/badge)](https://www.codefactor.io/repository/github/onesoft-sudo/cocoa)
 ![GitHub](https://img.shields.io/github/license/onesoft-sudo/cocoa?color=%23007bff&label=License)
 
+Note: This framework is under development. Its not recommended to use this in production.
+
 Cocoa is a Discord bot framework that can make your code less!
