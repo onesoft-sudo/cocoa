@@ -1,6 +1,5 @@
 {
-  "name": "cocoa",
-  "private": false,
+  "name": "@onesoftnet/cocoa",
   "version": "0.0.1",
   "description": "A discord bot framework.",
   "main": "build/index.js",
@@ -10,7 +9,7 @@
     "start": "node src/index.js",
     "dev": "nodemon src/src.ts"
   },
-  "files": ["src", "build"],
+  "files": ["src", "build", "tsconfig.json", "package.json"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/onesoft-sudo/cocoa.git"

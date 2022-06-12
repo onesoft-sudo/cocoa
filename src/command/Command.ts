@@ -1,4 +1,5 @@
 import { Client, Message } from "discord.js";
+import CocoaClient from "../core/CocoaClient";
 
 /**
  * The command class.
@@ -6,9 +7,13 @@ import { Client, Message } from "discord.js";
  * @abstract
  */
 export default abstract class Command {
-    constructor(public name: string, public category: string | null = null, public aliases: string[] = []) {
+    constructor(public client: CocoaClient, public name: string, public category: string | null = null, public aliases: string[] = []) {
 
     }
 
-    public abstract run(client: Client, message: Message, args?: string[]): Promise <void>;
+    getName() {
+        return this.name;
+    }
+
+    abstract run(message: Message, args?: string[]): Promise <any>;
 }
